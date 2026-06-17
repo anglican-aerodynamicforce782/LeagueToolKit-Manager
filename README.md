@@ -6,7 +6,7 @@
 
 **LeagueToolKit Manager** is a modern, easy-to-use mod manager for **League of Legends**. The successor to CSLOL-Manager, it simplifies installing, managing, and creating custom skins, models, effects, and Fantome mods.
 
-<img width="460" height="460" alt="image" src="https://github.com/user-attachments/assets/5e99420d-7fed-4313-9342-ea022e2c454a" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/5e99420d-7fed-4313-9342-ea022e2c454a" />
 
 ## Install
 [Download `LeagueToolKit.zip`](https://github.com/PhamHongPhucs/LeagueToolKit-Manager/releases/latest/download/LeagueToolKit-Manager.zip)
