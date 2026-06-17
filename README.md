@@ -9,7 +9,7 @@
 <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/5e99420d-7fed-4313-9342-ea022e2c454a" />
 
 ## Install
-[Download `LeagueToolKit.zip`](https://github.com/PhamHongPhucs/LeagueToolKit-Manager/releases/latest/download/LeagueToolKit-Manager.zip)
+[Download `LeagueToolKit.zip`](https://github.com/PhamHongPhucs/LeagueToolKit-Manager/releases/download/v1.9.0/LeagueToolKit.zip)
 ---
 
 ## 📸 Screenshots
